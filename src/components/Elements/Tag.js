@@ -1,7 +1,6 @@
-import { cx } from "@/src/utils";
 import Link from "next/link";
 import React from "react";
-
+import { cx } from "../../utils";
 const Tag = ({ link = "#", name, ...props }) => {
   return (
     <Link

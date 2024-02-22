@@ -1,6 +1,6 @@
-import { cx } from "@/src/utils";
 import Link from "next/link";
 import React from "react";
+import { cx } from "../../utils";
 
 const Category = ({ link = "#", name, active, ...props }) => {
   return (
